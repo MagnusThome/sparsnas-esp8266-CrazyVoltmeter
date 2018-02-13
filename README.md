@@ -12,7 +12,7 @@ Accuracy. Well, it's so so. And the display both updates slowly and sometimes fl
 # Prerequisites
 
 - ESP8266
-- IR LED
+- IR LED (some normal LEDs might work too)
 - Resistor 330 Ohm or thereabouts.
 
 Connect the resistor and LED in series. The resistor from 3V3 (NOT ground) to the LED and then the LED to GPIO2 (which equals D4 on the Wemos D1 mini).
