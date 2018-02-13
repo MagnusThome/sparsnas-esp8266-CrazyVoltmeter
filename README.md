@@ -25,4 +25,6 @@ The ESP8266 will continously print out the voltage in millivolts and also the cu
 If your ESP8266 has a built in LED this should also blink every time the IR LED blinks invisibly.
 
 
+![Display](display.jpg)
+
 # Have fun
