@@ -19,7 +19,7 @@ Connect the resistor and LED in series. The resistor from 3V3 (NOT ground) to th
 
 # Troubleshooting over serial
 
-The ESP8266 will continously print out the voltage in millivolts and also the current blink timing rate in milliseconds on it's serial/USB interface. Default setting for baudrate is 76800, make sure you set your IDE to this speed.
+The ESP8266 will continously print out - on it's serial/USB interface - the voltage in millivolts and also the current blink timing rate in milliseconds. Default setting for baudrate is 76800, make sure you set your IDE to this speed.
 
 
 If your ESP8266 has a built in LED this should also blink every time the IR LED blinks invisibly.
