@@ -2,7 +2,7 @@
 
 Connect an IR-LED to an ESP8266 and make the LED blink into the Sparsnäs IR-sensor. Now the Sparsnäs is a remote wireless display that can show a number representing whatever you want. 
 
-In this case we measure the voltage on the analog input pin on the ESP8266 and show the voltage on the Sparnsäs display in millivolts. Yeah, the number will have the letter W tagged on to it on the Sparsnäs display. No, this is not the most serious project you've ever seen.
+In this case we measure the voltage on the analog input pin on the ESP8266 and show the voltage on the Sparnsäs display in millivolts. The measuring range on a Wemos D1 mini is roughly from a few millivolts to just over 3000 millivolts. Yup, that's 3 volts if you lost your calculator, hehe. Now... the number will have the letter W tagged on to it on the Sparsnäs display. No, this is not the most serious project you've ever seen.
 
 The setting of "pulses per KWh" in Sparsnäs should be set to 10000.
 
