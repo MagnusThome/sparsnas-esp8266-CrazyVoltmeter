@@ -1,4 +1,4 @@
-# Make a crazy wireless voltmeter display with IKEA's Sparsnäs and an ESP8266
+# Make a wireless voltmeter display with IKEA's Sparsnäs and an ESP8266
 
 Connect an IR-LED to an ESP8266 and make the LED blink into the Sparsnäs IR-sensor. Now the Sparsnäs is a remote wireless display that can show a number representing whatever you want. 
 
