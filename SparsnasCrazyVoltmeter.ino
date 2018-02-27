@@ -56,11 +56,11 @@ void setup() {
 // ------------------------------------------------------
 void loop() {
   now = millis();
-  if (now >= lastblink + blinktimer) {
+  if (now - lastblink >= blinktimer) {
     lastblink = now;
     blink();
   }
-  if (now >= lastupdate + UPDATETIMER) {
+  if (now - lastupdate >= UPDATETIMER) {
 //  sparsnasnumber = analogRead(ANALOGINPUTPIN);                               // SHOW RAW DATA INPUT 0-1024
     sparsnasnumber = ((analogRead(ANALOGINPUTPIN)*MAXVOLT)/1024)+VOLTOFFSET;   // SHOW INPUT VOLTAGE 0-3300mV (On Wemos D1 mini!)
     blinktimer = getblinktiming(sparsnasnumber);
